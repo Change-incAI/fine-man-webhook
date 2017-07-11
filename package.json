@@ -1,15 +1,15 @@
 {
-  "name": "fine-man webhook",
+  "name": "fine-man-webhook",
   "version": "0.1.0",
   "description": "Fine-man webhook for api.ai",
   "main": "webhook.js",
   "scripts": {
-    "start": "nf start",
+    "start": "node webhook.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/girliemac/fb-apiai-bot-simple"
+    "url": "git+https://github.com/Change-incAI/fine-man-webhook"
   },
   "keywords": [
     "bot",
@@ -18,7 +18,7 @@
     "facebook",
     "messenger"
   ],
-  "author": "Tomomi ❤️ Imura",
+  "author": "Change-inc.ai",
   "license": "MIT",
    "dependencies": {
     "ajax-request": "^1.2.3",
@@ -26,8 +26,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "request": "^2.79.0",
-	"cheerio":  "latest",
-	"mongo" : "latest"
-	
+    "cheerio":  "latest",
+    "mongo" : "latest"
   }
 }
